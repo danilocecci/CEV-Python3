@@ -1,4 +1,4 @@
-![Python](https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif)
+![Python](https://i.imgur.com/nfT1RdN.gif)
 # Curso em Vídeo - Python3
 ### Anotações e exercícios do Curso Introdutório de Python3 pelo [Curso em Vídeo](https://www.youtube.com/user/cursosemvideo), Prof.º Gustavo Guanabara.
 <br/>
