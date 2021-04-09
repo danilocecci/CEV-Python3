@@ -1,0 +1,6 @@
+nome_completo = input('Digite seu nome completo: ')
+nome_splitado = nome_completo.split()
+print('Seu nome completo com letras maíusculas:',nome_completo.upper())
+print('Seu nome completo com letras minúsculas:',nome_completo.lower())
+print('Seu nome completo tem {} caracteres sem contar os espaços!'.format(len(nome_completo.strip().replace(" ",""))))
+print('Seu primeiro nome tem {} caracteres!'.format(len(nome_splitado[0])))

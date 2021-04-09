@@ -1,0 +1,5 @@
+print('Agora vamos calcular a média!')
+nota1 = float(input('Para isso preciso que digite um número: '))
+print('Obrigado!')
+nota2 = float(input('Agora preciso que digite outro número: '))
+print('A média entre "{}" e "{}" é "{}"!'.format(nota1,nota2,((nota1+nota2)/2)))

@@ -1,0 +1,5 @@
+print('')
+print('Agora vamos ver quantos dólares você pode comprar!')
+grana = float(input('Me diga quantos Reais você tem: R$'))
+print('')
+print('OK. Você tem {} reais, portanto você pode comprar {:.2f} dólares'.format(grana, (grana/5.62)))

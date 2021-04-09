@@ -1,0 +1,8 @@
+print('')
+print('Olá. Vamos calcular aumento salarial!')
+name = input('Para qual funcionário você quer aplicar o aumento salarial? ')
+salary = float(input('Qual é o salário desse funcionário? R$'))
+tax_salary_increase = float(input('Qual é a taxa de aumento (em %) que você deseja aplicar? '))
+print('')
+print('Vamos lá:')
+print('O salário de {} que era de R${:.2f} foi para R${:.2f}, devido a aplicação de {:.2f}%!'.format(name, salary, (salary*(1+(tax_salary_increase/100))),tax_salary_increase))

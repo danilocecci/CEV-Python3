@@ -1,0 +1,18 @@
+frase = 'Curso em Vídeo Python'
+print('Fatiamento =',frase[:6])
+print('Fatiamento2 =',frase[::2])
+print('count "O" =',frase.count('O'))
+print('upper + count "O" =',frase.upper().count('O'))
+print('lenght =',len(frase))
+frase_torta = '    Curso em Vídeo Python   '
+print('strip =',frase_torta.strip())
+print('strip r =', frase_torta.rstrip())
+print('strip l =', frase_torta.lstrip())
+print('replace =',frase.replace('Curso','Teste'))
+print('Tem "Curso" na variável?','Curso' in frase)
+print('Onde começa a palavra "Curso"?',frase.find('Curso'))
+print('Frase dividida:',frase.split())
+frase_dividida = frase.split()
+print('Exibindo a primeira palavra da frase dividida =',frase_dividida[0])
+print('Exibindo a primeira letra da primeira palavra da frase dividida =',frase_dividida[0][0])
+print('Exibindo a segunda letra da segunda palavra da frase dividida =',frase_dividida[1][1])

@@ -1,0 +1,5 @@
+print('')
+print('Olá! Você calcular o desconto de um produto!')
+price = float(input('Por favor, digite o preço de um produto: R$'))
+discount = float(input('Qual taxa de desconto (em %) você quer aplicar a esse produto? '))
+print('Seu produto custa R${} e com o desconto de {}% ele custará R${}!'.format(price, discount, (price*(discount/100))))

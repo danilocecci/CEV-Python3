@@ -1,0 +1,6 @@
+print('Agora vamos calcular o dobro, o triplo e a raiz quadrada de um número!')
+numero = int(input('Para isso, preciso de você digite um número: '))
+print('Seu número foi "{}".'.format(numero))
+print('O DOBRO do seu número é {}!'.format((numero*2)))
+print('O TRIPLO do seu número é {}!'.format((numero*3)))
+print('Sua RAIZ QUADRADA é {:.2f}!'.format((numero**(1/2))))
